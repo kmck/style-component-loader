@@ -1,0 +1,44 @@
+{
+  "name": "style-component-loader",
+  "version": "1.0.0-beta1",
+  "description": "Generate dynamic stylesheets with replaceable tokens",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Keith McKnight",
+    "email": "keith@mcknig.ht"
+  },
+  "keywords": [
+    "style",
+    "sass",
+    "scss",
+    "css",
+    "webpack",
+    "loader"
+  ],
+  "files": [
+    "/index.js",
+    "/lib",
+    "/LICENSE"
+  ],
+  "dependencies": {
+    "loader-utils": "^0.2.15",
+    "lodash": "^4.13.0",
+    "style-loader": "^0.13.1"
+  },
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "gulp": "^3.9.1",
+    "node-sass": "^3.7.0",
+    "sass-loader": "^3.2.0",
+    "webpack-stream": "^3.2.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true
+    }
+  }
+}
