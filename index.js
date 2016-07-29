@@ -13,7 +13,7 @@ module.exports.pitch = function(remainingRequest, precedingRequest, data) {
 
     var valuesPath = loaderUtils.stringifyRequest(this, require.resolve('lodash/values'));
     var replaceTokensPath = loaderUtils.stringifyRequest(this, path.join(__dirname, 'replace-tokens'));
-    var addStylesPath = loaderUtils.stringifyRequest(this, '!' + require.resolve('style-loader/addStyles'))
+    var addStylesPath = loaderUtils.stringifyRequest(this, '!' + require.resolve('style-loader/addStyles'));
     var contentPath = loaderUtils.stringifyRequest(this, "!!" + remainingRequest);
 
     return [
