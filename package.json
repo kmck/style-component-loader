@@ -1,6 +1,6 @@
 {
   "name": "style-component-loader",
-  "version": "1.0.0-beta1",
+  "version": "1.0.0",
   "description": "Generate dynamic stylesheets with replaceable tokens",
   "main": "index.js",
   "scripts": {
@@ -25,14 +25,15 @@
   ],
   "dependencies": {
     "loader-utils": "^0.2.15",
-    "lodash": "^4.13.0",
+    "lodash": "^4.14.1",
     "style-loader": "^0.13.1"
   },
   "devDependencies": {
     "css-loader": "^0.23.1",
     "gulp": "^3.9.1",
-    "node-sass": "^3.7.0",
-    "sass-loader": "^3.2.0",
+    "node-sass": "^3.8.0",
+    "sass-loader": "^4.0.0",
+    "webpack": "^1.13.1",
     "webpack-stream": "^3.2.0"
   },
   "eslintConfig": {
