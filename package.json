@@ -1,6 +1,6 @@
 {
   "name": "style-component-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate dynamic stylesheets with replaceable tokens",
   "main": "index.js",
   "scripts": {
@@ -24,8 +24,8 @@
     "/replace-tokens.js"
   ],
   "dependencies": {
-    "loader-utils": "^0.2.15",
-    "lodash": "^4.14.1",
+    "loader-utils": "0.2.x",
+    "lodash": "4.x",
     "style-loader": "^0.13.1"
   },
   "devDependencies": {
